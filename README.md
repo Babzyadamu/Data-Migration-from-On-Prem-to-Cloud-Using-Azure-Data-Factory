@@ -40,16 +40,41 @@ The next step was to create a container where the Covid 19 csv dataset will be s
 
 ![](2_NewContainer.jpg)
 
-A new self integrated run time was created which will create the gateway to connect to the on prem sql database
+A new self integrated run time was created which will create the gateway to connect to the on prem sql database.
 
 ![](3_ADF_DownloadingIntRunTime.jpg)
 
-After creating the the new integrated run time, the self hosted integration runtime was downloaded and installed as shown below
+After creating the the new integrated run time, the self hosted integration runtime was downloaded and installed as shown below.
 
 
 ![](4_ADF_Downloaded_IntRunTime.jpg)
 
 ![](5_ADF_RunningIntRuntime.jpg)
+
+## Creating the Linked Service and Datasets (Sql server and ADLS)
+
+The next step was to create the sql server linked service and configure it by linking it to the self hosted integrated runtime that was created earlier.
+
+![](6_ADF_SQLLS.jpg)
+
+![](7_ADF_ConfigureSQLls.jpg)
+
+The sql on prem data set was created and linked to the sql server linked service.
+
+![](9_ADF_Onprem_Ds.jpg)
+
+The Azure Data Lake Storage Gen 2 Linked service was also created which will be linked to the csv data set created.
+
+![](8_ADF_Destls.jpg)
+
+The Azure Data Lake Storage Gen 2 dataset was created in the csv format which was linked to theAzure Data Lake Storage Gen 2 Linked service created earlier.
+
+![](10_ADF_Csv_DestDS.jpg)
+
+![](10B_ADF_Covid_Data_Dest.jpg)
+
+
+
 
 
 
