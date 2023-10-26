@@ -36,4 +36,24 @@ The azure was set up by creating an azure storage account, azure data factory an
 
 ![](1_ConnecttoAzure.jpg)
 
+The next step was to create a container where the Covid 19 csv dataset will be stored.
+
+![](2_NewContainer.jpg)
+
+A new self integrated run time was created which will create the gateway to connect to the on prem sql database
+
+![](3_ADF_DownloadingIntRunTime.jpg)
+
+After creating the the new integrated run time, the self hosted integration runtime was downloaded and installed as shown below
+
+
+![](4_ADF_Downloaded_IntRunTime.jpg)
+
+![](5_ADF_RunningIntRuntime.jpg)
+
+
+
+
+
+
 
