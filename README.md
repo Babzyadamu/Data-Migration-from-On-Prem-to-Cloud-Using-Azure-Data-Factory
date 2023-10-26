@@ -9,7 +9,11 @@ Disclaimer!!!! The dataset utilized for this analysis was sourced from Kaggle,  
 
 ## Problem Statement
 
-Company xyz have their data on premises where they maintain and secure all their infrastructure however, In response to the escalating challenges of managing costly on-premises infrastructure, optimizing scalability, and ensuring robust data security, company xyz is ready to migrate to the cloud using Microsoft Azure.. This transition will help to unlock cost savings, enhance flexibility, and improve overall business agility while maintaining high standards of data protection and compliance. The final data is to be kept in a container on Microsoft Azure in a Csv format.
+Company xyz have their data on premises where they maintain and secure all their infrastructure however, In response to the escalating challenges of managing costly on-premises infrastructure, optimizing scalability, and ensuring robust data security, company xyz is ready to migrate to the cloud using Microsoft Azure. This transition will help to unlock cost savings, enhance flexibility, and improve overall business agility while maintaining high standards of data protection and compliance. The final data is to be kept in a container on Microsoft Azure in a Csv format.
+
+## Deliverables
+
+The dataset is about covid 19 deaths across several locations (Europe, Asia etc) from Jan 2019 to July 2022. Company xyz only wants data for Europe migrated to the cloud from Jan 2022 to July 2022.
 
 
 ## Methodology
@@ -19,3 +23,11 @@ Company xyz have their data on premises where they maintain and secure all their
 -  Pipeline: Create a pipeline that will connect to the source data set (sql server on prem) and sink the data to the Azure Data Lake Storage Gen 2 storage where the data will be stored.
 
   ![](Methodology.jpg)
+
+## Exploring the On Premise Data 
+
+As mentioned earlier, only data for Europe is required to be migrated for the period of Jan 2022 to July 2022. Exploring the on premise data shows a total of 190 records is expected to be in the cloud at the end of the project. The image below shows the expected data that is to be migrated to the cloud.
+
+![](1_MSSSQL_CovidDeath.jpg)
+
+
