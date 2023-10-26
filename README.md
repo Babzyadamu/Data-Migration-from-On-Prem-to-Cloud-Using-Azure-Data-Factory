@@ -30,4 +30,10 @@ As mentioned earlier, only data for Europe is required to be migrated for the pe
 
 ![](1_MSSSQL_CovidDeath.jpg)
 
+## Connecting to the Company's Microsoft Azure
+
+The azure was set up by creating an azure storage account, azure data factory and an azure resource group as shown below. 
+
+![](1_ConnecttoAzure.jpg)
+
 
