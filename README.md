@@ -28,7 +28,7 @@ The dataset is about covid 19 deaths across several locations (Europe, Asia etc)
 
 As mentioned earlier, only data for Europe is required to be migrated for the period of Jan 2022 to July 2022. Exploring the on premise data shows a total of 9,672 records is expected to be in the cloud at the end of the project. The image below shows the expected data that is to be migrated to the cloud.
 
-![](1_MSSSQL_CovidDeath.jpg)
+![](1_2SqlQuery.jpg)
 
 ## Connecting to the Company's Microsoft Azure
 
