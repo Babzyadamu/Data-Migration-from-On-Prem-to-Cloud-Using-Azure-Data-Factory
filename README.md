@@ -79,7 +79,12 @@ A new pipeline was created called Covid_Data_Pipeline. Naming the pipeline is im
 
 ![](11_ADF_CovidData_Pipeline.jpg)
 
-The Copy activity was configured using the source and sink. The source is connected to sqlon prem dataset where it copies tge data from and the sink which is the destination is linked to the csv dataset created which is further linked to the ADLS (Azure Data Lake Gen 2 Storage) as shown below.
+The Copy activity was configured using the source and sink. The source is connected to sqlon prem dataset where it copies tge data from and the sink which is the destination is linked to the csv dataset created which is further linked to the ADLS (Azure Data Lake Gen 2 Storage). Recall Company xyz only wants records for Europe between Jan 2022 to July 2022 to be migrated to the cloud, so it was at this point I queried the dataset by choosing query as shown below.
+
+![](12_ADF_Configure_pipelineQuery.jpg)
+
+![](12b_ADF_Configure_pipeline_Destls.jpg)
+
 
 
 
