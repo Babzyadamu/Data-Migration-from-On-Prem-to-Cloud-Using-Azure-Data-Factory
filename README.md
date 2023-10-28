@@ -73,9 +73,11 @@ The Azure Data Lake Storage Gen 2 dataset was created in the csv format which wa
 
 ![](10B_ADF_Covid_Data_Dest.jpg)
 
+## Pipeline Creation
 
+A new pipeline was created called Covid_Data_Pipeline. Naming the pipeline is important so that it can be differentiated from other pipelines. Next step was to drag in the copy data function into the pipeline canvas. The copy data function will be used to copy all the data from the on prem to the desired container, It serves as the main engine for copying the data.
 
-
+![](11_ADF_CovidData_Pipeline.jpg)
 
 
 
