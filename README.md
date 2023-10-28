@@ -79,7 +79,7 @@ A new pipeline was created called Covid_Data_Pipeline. Naming the pipeline is im
 
 ![](11_ADF_CovidData_Pipeline.jpg)
 
-The Copy activity was configured using the source and sink. The source is connec
+The Copy activity was configured using the source and sink. The source is connected to sqlon prem dataset where it copies tge data from and the sink which is the destination is linked to the csv dataset created which is further linked to the ADLS (Azure Data Lake Gen 2 Storage) as shown below.
 
 
 
