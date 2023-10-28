@@ -85,6 +85,12 @@ The Copy activity was configured using the source and sink. The source is connec
 
 ![](12b_ADF_Configure_pipeline_Destls.jpg)
 
+Under mapping the schemas were imported and it is at this point you can edit the column names and change the data types of the data you are migrating from the source data. In this case everything was well transformed so I did not do any transformation.
+
+
+![](13_ADF_PipelineMapping.jpg)
+
+
 
 
 
