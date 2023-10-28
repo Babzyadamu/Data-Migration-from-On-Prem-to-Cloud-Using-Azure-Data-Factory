@@ -98,6 +98,17 @@ Finally I previewed the data in the destination container to ensure 9,672 record
 
 ![](15_ADFSuceed_Details.jpg)
 
+Having a deeper look at the data in the final destination (Azure Data Lake Gen 2 Storage)
+
+
+![](16_ADF_CovidDataPreviewContainer.jpg)
+
+## Conclusion
+
+The duration to migrate all 9,672 records took 19 seconds as seen earlier in our final migration details .
+
+To all my followers, I hope you found this useful. Don't forget to follow me on my [Github](https://github.com/Babzyadamu/) and [Linkedin](https://www.linkedin.com/in/ahmed-adamu-0b63b9a5) as I share more.
+
 
 
 
