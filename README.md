@@ -90,7 +90,13 @@ Under mapping the schemas were imported and it is at this point you can edit the
 
 ![](13_ADF_PipelineMapping.jpg)
 
+Next step was to Debug (Execute) the pipeline after configuring all necessary activities which was successful.
 
+![](14_Pipeline_Succeded.jpg)
+
+Finally I previewed the data in the destination container to ensure 9,672 records are in there as seen in our on premise database and it matched our on premise records.
+
+![](15_ADFSuceed_Details.jpg)
 
 
 
